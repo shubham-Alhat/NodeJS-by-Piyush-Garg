@@ -1,6 +1,7 @@
 ## Node JS
 
 <hr>
+
 **Node JS is javascript run time environment.**
 whenever we run `npm init`. it creates **package.json** file.
 
