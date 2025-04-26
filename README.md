@@ -49,3 +49,31 @@ Create this file: jsconfig.json
   "include": ["./**/*.js"]
 }
 ```
+
+## File handling in nodeJS
+
+1. for dealing and interacting with files, we need package **fs** (_file system_) from nodeJS.
+
+below code is from _file system > file.js_
+
+```javascript
+const fs = require("fs");
+
+fs.writeFileSync("./test.txt", "Shubham Alhat");
+```
+
+**Run this file using `node file.js` cmd in termnal. ensure that you are in that particular directory.**
+
+Here, a file created named **test.txt** with text inside the file `Shubham Alhat`.
+just like this, there are
+
+appendFileSync()
+readFileSync()
+
+**where it is used - when we have to monitor our server's requests. meaning creating file `log.txt` where we will log our data of user like when he want any request. what was timing?? store his IP address**
+
+<hr>
+
+#### Through fs, we can many different operations on file. _And guess what, vanilla javascript doesnt have these features or methods._
+
+<hr>
