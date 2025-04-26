@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const os = require("os");
-console.log(os.cpus().length); // number of threads i can max to my server - 12
+console.log(os.cpus()); // number of threads i can max to my server - 12
 
 // console.log(1);
 
