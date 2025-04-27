@@ -1,10 +1,14 @@
 const http = require("http");
 const fs = require("fs");
+const url = require("url");
 
 const myServer = http.createServer((req, res) => {
+  if (req.url === "/favicon.ico") return res.end();
+  const myUrl = url.parse(req.url, true);
+  console.log(myUrl);
   const log = `${Date.now()} : ${req.url}\n`;
   fs.appendFile("data.txt", log, () => {
-    switch (req.url) {
+    switch (myUrl.pathname) {
       case "/":
         res.end("hello from Homepage");
 

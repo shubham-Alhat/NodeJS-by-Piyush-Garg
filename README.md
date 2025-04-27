@@ -100,3 +100,19 @@ readFileSync()
 lets say, in our server, four users sends request one by one and **if you have writte blocking code** then when 5th user sends a request, he have to wait to complete any one process from four to get a thread. **That's why it is important to write non-blocking code.**
 
 ![alt text](image-3.png)
+
+<hr>
+
+## Handling url in nodeJs
+
+### URL - Uniform Resource Locator
+
+![alt text](image-4.png)
+
+**An url structure. `Path:/HomePage or Root Page`**
+
+**Now comes `query parameter`.**
+
+![alt text](image-5.png)
+
+Anything after **?** is query parameter.
