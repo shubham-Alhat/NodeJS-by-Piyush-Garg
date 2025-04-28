@@ -6,5 +6,5 @@
     "allowJs": true,
     "types": ["node"]
   },
-  "include": ["./**/*.js"]
+  "include": ["./**/*.js", "05http_&_expressJS/index.js"]
 }

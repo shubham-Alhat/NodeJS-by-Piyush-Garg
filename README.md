@@ -116,3 +116,17 @@ lets say, in our server, four users sends request one by one and **if you have w
 ![alt text](image-5.png)
 
 Anything after **?** is query parameter.
+
+<hr>
+
+## HTTP Methods.
+
+### 1. GET - To get some data from our erver. such request is GET type. eg:- when we search any thing in browser, it automatically sends GET method request.
+
+### 2. POST - When we send some data to our server. eg:- sign up/ sign in process.
+
+### 3. PUT - When we put data on server. like uploading image or file in our server.
+
+### 4. PATCH - When we want to change or edit some data in server. eg:- editing our insta or X profile like username and bio.
+
+### 5. DELETE - When we want to delete some data from server. like deleting out social media account.
