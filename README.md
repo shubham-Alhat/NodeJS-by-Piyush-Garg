@@ -130,3 +130,9 @@ Anything after **?** is query parameter.
 ### 4. PATCH - When we want to change or edit some data in server. eg:- editing our insta or X profile like username and bio.
 
 ### 5. DELETE - When we want to delete some data from server. like deleting out social media account.
+
+<hr>
+
+## Ngnix server - It is a web server
+
+![alt text](image-6.png)
